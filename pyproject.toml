@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometric-entropy"
+version = "0.1.0"
+description = "Computing geometric entropy via granular and extensive cardinality"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "gudhi>=3.8.0",
+    "matplotlib>=3.4.0",
+    "tqdm>=4.60.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

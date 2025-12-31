@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: geometric-entropy
+Version: 0.1.0
+Summary: Computing geometric entropy via granular and extensive cardinality
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: gudhi>=3.8.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: tqdm>=4.60.0
